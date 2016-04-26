@@ -4,7 +4,7 @@
 ## To run from file > spark-shell -i wordcount.scala
 
 ### contents
-val textFile = sc.textFile("../README.md")
+val textFile = sc.textFile("README.md")
 print("** Total words \n")
 textFile.count()
 

@@ -2,7 +2,7 @@ import java.lang.Math
 import java.lang.Math
 
 print("** To run from file > spark-shell -i wordcount.scala ** \n")
-val textFile = sc.textFile("../README.md")
+val textFile = sc.textFile("README.md")
 print("** Total words \n")
 textFile.count()
 
